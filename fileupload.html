@@ -1,10 +1,85 @@
-<html lang="en">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset = "UTF-8">
+    <style>
+        html *
+        {
+            font-family: Arial !important;
+        }
+        body {
+            margin: 0;
+        }
+        .header {
+            padding: 5px;
+            text-align: center;
+            background: #0b5394ff;
+            color: white;
+            font-size: 31px;
+        }
+        a:link, a:visited{
+            color:white;
+            text-decoration: none;
+        }
+        .button {
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+
+            position: absolute;
+            left: 0;
+            right: 0;
+    
+            margin: auto; 
+            width: 25%;
+            border: none;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .browseButton {background-color: #ccccccff;}
+        .uploadButton {background-color: #0b5394ff;}
+        .homeButton {background-color: #0b5394ff;}
+    </style>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class = "header">
+        <a href = "home.html">AIReporter</a><p style = "display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "companylist.html">List of Companies</a><p style = "display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "login.html">Login</a><p style = "display:inline">/</p><a href = "updateinformation.html">Account</a>
+        <p style = "display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "signup.html">Sign Up</a><p style = "display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "supportus.html">Support Us</a>
+    </div>
+    <h1 style = "text-align:center">Upload Files</h1>
+    <p style = "text-align:center"> 
+        Here you can upload files containing any copyrighted works you have created to see if they've 
+        been used by any AI tools without your permission.
+    </p>
+    <button class = "button browseButton" onclick = "alert('File Selected Successfully')">Browse...</button>
+    <p>
+
+        &#160
+        
+    </p>
+    <p>
+
+        &#160
+
+    </p>
+    <button class = "button uploadButton" onclick = "alert('File Uploaded Successfully')">Upload</button>
+    <p>
+
+        &#160
+
+    </p>
+    <p>
+
+        &#160
+
+    </p>
+    <button class = "button homeButton" onclick = "location.href='home.html'">Back To Home</button>
 </body>
 </html>
