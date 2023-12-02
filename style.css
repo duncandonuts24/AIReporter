@@ -1,13 +1,21 @@
 body{
-    background-color: white;
+    background-color: #0b5394ff;
     font-family: 'Roboto', sans-serif;
 }
  .signup-box{
     width: 360px;
-    height: 620px;
+    height: 530px;
     margin: auto;
     background-color: white;
     border-radius: 3px;
+ }
+
+ .login-box{
+    width: 360px;
+    height: 270px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
  }
 
  h1{
@@ -57,9 +65,9 @@ body{
     text-align: center;
     color: white;
     font-size: 15px;
-    margin-top: -10px;
+    margin-top: 5px;
  }
 
  .para-2 a{
-    color: #49cla2;
+    color: #49c1a2;
  }
