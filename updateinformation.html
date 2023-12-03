@@ -1,16 +1,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: white;
+            background-color: #0b5394ff;
             margin: 0;
             padding: 0;
-            display: flex;
+            
             align-items: center;
             justify-content: center;
             height: 100vh;
+        }
+
+        .header {
+            padding: 5px;
+            text-align: center;
+            background: #0b5394ff;
+            color: white;
+            font-size: 31px;
         }
 
         form {
@@ -50,14 +59,14 @@
 </head>
 <body>
     <div class = "header">
-        <a href = "home.html">AIReporter</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
-        <a href = "companylist.html">List of Companies</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
-        <a href = "updateinformation.html">Account</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
-        <p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
-        <a href = "signup.html">Login/Sign Up</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
-        <a href = "supportus.html">Support Us</a>
+        <a href = "home.html" style = "color:white; text-decoration:none">AIReporter</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "companylist.html" style = "color:white; text-decoration:none">List of Companies</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "updateinformation.html" style = "color:white; text-decoration:none">Account</a><p style="display:inline">&#160&#160&#160&#160&#160</p>
+        <p style="display:inline" style = "color:white; text-decoration:none">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "signup.html" style = "color:white; text-decoration:none">Login/Sign Up</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "supportus.html" style = "color:white; text-decoration:none">Support Us</a>
     </div>
-    <form>
+    <form style = "margin:auto; margin-top: 10px; background-color: white;">
         <h2>Update Information</h2>
         <label for="firstname">First Name:</label>
         <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
