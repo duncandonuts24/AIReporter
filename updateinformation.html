@@ -1,10 +1,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b5394ff;
+            margin: 0;
+            padding: 0;
+            
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .header {
+            padding: 5px;
+            text-align: center;
+            background: #0b5394ff;
+            color: white;
+            font-size: 31px;
+        }
+
+        form {
+            background-color: #0b5394ff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #49c1a2;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0b5394ff;
+        }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Update Information</title>
 </head>
 <body>
+    <div class = "header">
+        <a href = "home.html" style = "color:white; text-decoration:none">AIReporter</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "companylist.html" style = "color:white; text-decoration:none">List of Companies</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "updateinformation.html" style = "color:white; text-decoration:none">Account</a><p style="display:inline">&#160&#160&#160&#160&#160</p>
+        <p style="display:inline" style = "color:white; text-decoration:none">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "signup.html" style = "color:white; text-decoration:none">Login/Sign Up</a><p style="display:inline">&#160&#160&#160&#160&#160&#160&#160&#160&#160</p>
+        <a href = "supportus.html" style = "color:white; text-decoration:none">Support Us</a>
+    </div>
+    <form style = "margin:auto; margin-top: 10px; background-color: white;">
+        <h2>Update Information</h2>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <button type="submit">Update</button>
+    </form>
     
 </body>
 </html>
